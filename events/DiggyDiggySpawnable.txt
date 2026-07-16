@@ -97,7 +97,7 @@ country_event = {
 				country_event = { id = diggy_spawnable.10 days = 3 } 
 				add_country_modifier = {
 					name = dwarovar_claimer
-					duration = 16000 #plus 1450 is roughly 1494
+					duration = 18250 #plus 1450 is roughly 1494
 				}
 				set_country_flag = dwarovar_claimer_setup
 				lose_reforms = 10
