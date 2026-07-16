@@ -813,18 +813,6 @@ elizna_kheterata = {
 			470 = {
 				add_permanent_claim = ROOT
 			}
-			sur_mountains_area = {
-				add_permanent_claim = ROOT
-			}
-			568 = {
-				add_permanent_claim = ROOT
-			}
-			lower_brasan_area = {
-				add_permanent_claim = ROOT
-			}
-			outer_drolas_area = {
-				add_permanent_claim = ROOT
-			}
 			if = { #add merc thingie
 				limit = { }
 			}
