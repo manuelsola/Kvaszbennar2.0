@@ -169,7 +169,7 @@ country_event = {
 				# Insyaa
 				oceania = { destroy_province_permanently = yes }
 				# East Serpentspine
-				east_serpentspine_superregion = { destroy_province_permanently = yes }
+				#east_serpentspine_superregion = { destroy_province_permanently = yes }
 				# Haless
 				yanshen_superregion = { destroy_province_permanently = yes }
 				vimdatrong_superregion = { destroy_province_permanently = yes }
