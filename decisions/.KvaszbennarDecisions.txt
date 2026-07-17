@@ -70,8 +70,24 @@ country_decisions = {
         
         provinces_to_highlight = {
             owned_by = ROOT
-            development = 15
-            NOT = { num_of_times_expanded_infrastructure = 1 }
+			OR = {
+				AND = {
+					development = 15
+					NOT = { num_of_times_expanded_infrastructure = 1 }
+				}
+				AND = {
+					development = 30
+					NOT = { num_of_times_expanded_infrastructure = 2 }
+				}
+				AND = {
+					development = 45
+					NOT = { num_of_times_expanded_infrastructure = 3 }
+				}
+				AND = {
+					development = 60
+					NOT = { num_of_times_expanded_infrastructure = 4 }
+				}
+			}
         }
         
         effect = {
@@ -102,14 +118,14 @@ country_decisions = {
 					set_seat_in_parliament = yes
 				}
 			}
-			hidden_effect = {
-				every_owned_province = {
-					limit = { has_seat_in_parliament = yes }
-					add_pop_modifier = {race = all class = parliament amount = 25percent resource = tax onbase = base_tax}
-					add_pop_modifier = {race = all class = parliament amount = 25percent resource = goods_produced onbase = base_production}
-					add_pop_modifier = {race = all class = parliament amount = 20percent resource = manpower onbase = base_manpower}
-				}
-			}
+			#hidden_effect = {
+				#every_owned_province = {
+					#limit = { has_seat_in_parliament = yes }
+					#add_pop_modifier = {race = all class = parliament amount = 25percent resource = tax onbase = base_tax}
+					#add_pop_modifier = {race = all class = parliament amount = 25percent resource = goods_produced onbase = base_production}
+					#add_pop_modifier = {race = all class = parliament amount = 20percent resource = manpower onbase = base_manpower}
+				#}
+			#}
 		}
 		
 		ai_will_do = {

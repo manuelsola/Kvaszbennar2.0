@@ -76,7 +76,6 @@ on_startup = {
 
 # province
 on_adm_development = {
-	on_development_effect = { type = adm }
 	#ARUMBA LINES dev clicks counter
 	hidden_effect = {
 		owner = {
@@ -94,7 +93,6 @@ on_adm_development = {
 
 # province
 on_dip_development = {
-	on_development_effect = { type = dip }
 
 	#ARUMBA LINES dev clicks counter
 	hidden_effect = {
@@ -113,7 +111,6 @@ on_dip_development = {
 
 # province
 on_mil_development = {
-	on_development_effect = { type = mil }
 	#ARUMBA LINES dev clicks counter
     hidden_effect = {
 		owner = {
