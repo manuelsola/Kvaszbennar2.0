@@ -1,4 +1,4 @@
-version="0.8"
+version="1.0"
 tags={
 	"Alternative History"
 	"events"
@@ -8,7 +8,7 @@ tags={
 	"Missions And Decisions"
 	"Expansion"
 }
-name="Kvaszbennar"
+name="Kvaszbennar2.0"
 picture="thumbnail.png"
 replace_path="common/bookmarks"
 replace_path="common/church_aspects"
@@ -34,4 +34,3 @@ replace_path="history/advisors"
 replace_path="gfx/loadingscreens"
 replace_path="tutorial"
 supported_version="v1.37.5.0"
-remote_file_id="3327239687"
