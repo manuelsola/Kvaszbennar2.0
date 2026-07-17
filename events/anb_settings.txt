@@ -13,7 +13,7 @@ country_event = {
 		ai = no
 		NOT = { has_global_flag = settings_done }
 		NOT = { has_global_flag = settings_opened }
-		tag = A73 # Silverforge
+		tag = F30 # Silverforge
 	}
 	
 	immediate = {
@@ -171,24 +171,25 @@ country_event = {
 				# East Serpentspine
 				east_serpentspine_superregion = { destroy_province_permanently = yes }
 				# Haless
-				asia = { destroy_province_permanently = yes }
+				yanshen_superregion = { destroy_province_permanently = yes }
+				vimdatrong_superregion = { destroy_province_permanently = yes }
+				forbidden_lands_superregion = { destroy_province_permanently = yes }
+				gozengun_superregion = { destroy_province_permanently = yes }
 				# South Aelantir
 				kheionai_superregion = { destroy_province_permanently = yes }
 				taychend_superregion = { destroy_province_permanently = yes }
-				torn_gates_superregion = { destroy_province_permanently = yes }
 				mushroom_forest_region = { destroy_province_permanently = yes }
-				south_effelai_region = { destroy_province_permanently = yes }
-				severed_coast_region = { destroy_province_permanently = yes }
-				dry_coast_region = { destroy_province_permanently = yes }
 				east_effelai_region = { destroy_province_permanently = yes }
-				#turtleback_isle_region = { destroy_province_permanently = yes }
 				# Sarhal
 				djinnakah_superregion = { destroy_province_permanently = yes }
-				east_sarhal_superregion = { destroy_province_permanently = yes }
 				taneyas_superregion = { destroy_province_permanently = yes }
 				tanib_dajek_superregion = { destroy_province_permanently = yes }
-				south_salahad_superregion = { destroy_province_permanently = yes }
-				#fangaula_superregion = { destroy_province_permanently = yes }
+				dao_nako_region = { destroy_province_permanently = yes }
+				bamaliwuni_region = { destroy_province_permanently = yes }
+				ishyamtumu_region = { destroy_province_permanently = yes }
+				yetefesefi_region = { destroy_province_permanently = yes }
+				shadow_swamp_region = { destroy_province_permanently = yes }
+				denibari_region = { destroy_province_permanently = yes }
 				# West Serpentspine
 				#middle_dwarovar_region = { destroy_province_permanently = yes }
 				#west_dwarovar_region = { destroy_province_permanently = yes }
